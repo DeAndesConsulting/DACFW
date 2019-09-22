@@ -9,6 +9,8 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+
+        <Button x:Name="BtnPostRelevamiento" Text="Post relevamiento" Clicked="BtnPostRelevamiento_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>
